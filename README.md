@@ -15,7 +15,7 @@ options:
                         Scan method: full : Complete test (DNS resolution + EDNS + tunnel) edns : DNS
                         resolution + EDNS test only (no tunnel) resolve-only : DNS resolution test only
                         tunnel-only : Tunnel test only (skip DNS resolution check)
-  -r, --round ROUND     How many time tunnel test runs for every resolver
+  -r, --round ROUND     How many time tunnel test runs for every resolver higher is better but recommanded is 3 (default:1)
   -p, --port-range PORT_RANGE
                         Port range for tunnel clients (format: START-END, default: 2083-2100)
   -o, --output OUTPUT   Output file for successful resolvers (default: successful_resolvers.txt)
